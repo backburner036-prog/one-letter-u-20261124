@@ -1,6 +1,8 @@
 // One Letter for Your Day — make.fun entry
 // Entry: exactly one letter. "U" — the day did a U-turn: vivid, funny,
 // true, and the letter fits its word (not the obvious Monday pick).
+// Criteria order: letter stands for a day's word, vivid, funny, true,
+// letter suits its word.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE = "U";
